@@ -7,6 +7,7 @@ use prompt::Prompt;
 
 use crate::interpreter::Interpreter;
 
+/// Start the interactive interpreter
 pub fn launch() -> Result<(), std::io::Error> {
     let prompt = Prompt::new();
     let line_reader = Interface::new("fry")?;
