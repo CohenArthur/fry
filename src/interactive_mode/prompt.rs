@@ -1,6 +1,8 @@
 //! The Prompt is the text showed at the beginning of the line in interactive
 //! mode. It changes based on the context
 
+use colored::Colorize;
+
 pub struct Prompt {
     data: String,
 }
@@ -8,7 +10,7 @@ pub struct Prompt {
 impl Prompt {
     pub fn new() -> Prompt {
         Prompt {
-            data: "in: ".to_string(),
+            data: "in: ".purple().to_string(),
         }
     }
 
