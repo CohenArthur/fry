@@ -1,3 +1,5 @@
+mod interactive_mode;
+
 fn main() {
-    println!("Hello, world!");
+    interactive_mode::launch();
 }
