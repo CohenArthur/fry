@@ -1,3 +1,6 @@
+mod interactive_mode;
+mod interpreter;
+
 fn main() {
-    println!("Hello, world!");
+    interactive_mode::launch().unwrap();
 }
