@@ -146,6 +146,7 @@ version = "0.1.0"
 dependencies = [
  "colored",
  "linefeed",
+ "stir",
 ]
 
 [[package]]
@@ -437,6 +438,12 @@ name = "static_assertions"
 version = "0.3.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7f3eb36b47e512f8f1c9e3d10c2c1965bc992bd9cdb024fa581e2194501c83d3"
+
+[[package]]
+name = "stir"
+version = "0.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4fac9b9183d3eec543c2f69bd71b8a2e051ed8b46b1494a90082e1d6be9c4d48"
 
 [[package]]
 name = "terminfo"

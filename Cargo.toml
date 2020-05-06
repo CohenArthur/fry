@@ -9,3 +9,4 @@ edition = "2018"
 [dependencies]
 linefeed = "0.6"
 colored = "1.9"
+stir = "0.0"
